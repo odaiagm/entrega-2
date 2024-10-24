@@ -1,0 +1,80 @@
+.odaia-principal{
+    text-align:center;
+}
+
+body{
+    background-color: #f8e3f5;
+}
+
+header{
+    text-align: right;
+    word-spacing:300%;
+    font-family: "EB Garamond", serif;
+}
+
+h1{text-align: center;
+    text-decoration: overline underline;
+    color: #ec78db;
+    font-family: "EB Garamond", serif;  
+}
+
+h2{
+    text-align: center;
+    text-decoration: underline;
+    color: #ec78db;
+    font-family: "EB Garamond", serif;   
+}
+
+h3{
+    text-align: left;
+    word-spacing: 0%;
+    color:#ec78db ;
+    font-family: "EB Garamond", serif;
+}
+
+p{
+    text-align: center;
+    margin: 5rem;
+    color: #f035d4;
+    font-family: "EB Garamond", serif; 
+}
+
+a{
+    text-decoration: none;
+    color:#ec78db
+}
+
+.cv{
+    text-align: center;
+}
+
+.reel{
+    text-align: center;
+}
+
+img{
+    margin: 4%;
+}
+
+textarea{
+    height: 280px;
+    width: 320px;
+}
+
+.copyright p{
+    color: #ec78db;
+    text-align:right;
+    margin:0%;
+    font-family: "EB Garamond", serif;
+}
+
+.logos img{
+    text-align: left;
+    margin: 0%;
+}
+
+form{
+    font-family: "EB Garamond", serif;
+    color: #ec78db;
+}
+
