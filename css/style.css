@@ -10,23 +10,20 @@ body{
 
 header {
     display: flex;
-    flex-direction: column;
-    padding: 4%;
-    justify-content: space-around;
+    flex-direction: row;
+    padding: 2%;
+    justify-content: space-between;
     align-items: start;
 }
 
 header ul {
     display: flex;
-    text-decoration: none;
-
+    list-style: none;
 }
 
-header li {
-    margin: 7px;
-}
 
-header a {
+
+a {
     text-decoration: none;
     color:#ec78db;
     font-family: "EB Garamond", serif;
@@ -43,7 +40,8 @@ h1{
     display: grid;
     justify-content: center;
     text-decoration: overline underline;
-    margin-top: 5%;
+    margin-top: 3%;
+    margin-bottom: 3%;
     color: #ec78db;
     font-family: "EB Garamond", serif;  
 }
@@ -95,18 +93,24 @@ textarea{
     width: 320px;
 }
 
-.copyright p{
+span {
     color: #ec78db;
     font-family: "EB Garamond", serif;
 }
-
-footer div {
-    display: grid;
-    align-content: space-around;
-}
-
 
 form{
     font-family: "EB Garamond", serif;
     color: #ec78db;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 4%;
+}
+
+.odaia-header {
+    font-family: "EB Garamond", serif;
+    color:#f035d4 ;
+    font-size:x-large;
 }
