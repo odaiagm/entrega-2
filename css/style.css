@@ -4,7 +4,7 @@
 }
 
 
-body{
+body {
     background-color: #f8e3f5;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
 
@@ -14,6 +14,7 @@ header {
     padding: 2%;
     justify-content: space-between;
     align-items: start;
+    border-bottom: 4px dotted #f035d4;
 }
 
 header ul {
@@ -30,42 +31,22 @@ a {
     margin: 12px;
 }
 
-.carousel{
+.carousel {
     display: grid;
     justify-items: center;
     padding: 3%;
 }
 
-h1{
-    display: grid;
-    justify-content: center;
+h1 {
+    text-align: center;
     margin-top: 3%;
     margin-bottom: 3%;
     color: #ec78db;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;  
 }
 
-h2{
-    text-align: center;
-    text-decoration: underline;
-    color: #ec78db;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;   
-}
 
-h3{
-    text-align: left;
-    word-spacing: 0%;
-    color:#ec78db ;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-
-h4{
-    color:#ec78db;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    
-}
-
-p{
+p {
     text-align: center;
     margin: 5rem;
     color: #f035d4;
@@ -73,15 +54,14 @@ p{
 }
 
 
-.cv{
-    display: grid;
-    justify-content: center;
-    padding: 4%;
+.cv img {
+    align-items: center;
+    margin: 5%;
 }
 
-.reel{
+.reel {
     display: grid;
-    justify-content: center;
+    align-items: center;
     padding: 3%;
 }
 
@@ -109,7 +89,13 @@ footer {
 
 .odaia-header {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color:#ec78db ;
+    color:#ec78db;
+    font-weight: bolder;
     font-size:x-large;
     text-decoration: underline overline;
+}
+
+form {
+    padding: 5%;
+
 }
