@@ -86,7 +86,7 @@ p{
 }
 
 
-textarea{
+textarea {
     height: 280px;
     width: 320px;
 }
@@ -96,7 +96,7 @@ span {
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-form{
+form {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: #ec78db;
 }
