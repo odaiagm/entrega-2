@@ -6,6 +6,7 @@
 
 body{
     background-color: #f8e3f5;
+    font-family: "EB Garamond", serif;
 }
 
 header {
@@ -111,6 +112,6 @@ footer {
 
 .odaia-header {
     font-family: "EB Garamond", serif;
-    color:#f035d4 ;
+    color:#ec78db ;
     font-size:x-large;
 }
