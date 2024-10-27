@@ -19,14 +19,16 @@ header {
 
 header ul {
     display: flex;
-    list-style: none;
+    list-style-type: none;
 }
-
-
 
 a {
     text-decoration: none;
-    color:#ec78db;
+}
+
+header a {
+    text-decoration: none;
+    color: #ec78db;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     margin: 12px;
 }
@@ -45,7 +47,6 @@ h1 {
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;  
 }
 
-
 p {
     text-align: center;
     margin: 5rem;
@@ -55,8 +56,8 @@ p {
 
 
 .cv img {
-    align-items: center;
-    margin: 5%;
+    display: block;
+    margin: 0 auto;
 }
 
 .reel {
@@ -71,20 +72,23 @@ textarea {
     width: 320px;
 }
 
-span {
-    color: #ec78db;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
 
 form {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: #ec78db;
+    margin-left: 5px;
 }
 
 footer {
     display: flex;
     justify-content: space-between;
-    padding: 4%;
+    padding: 30px;
+    margin-top: 150px;
+}
+
+.copyright {
+    color: #ec78db;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .odaia-header {
@@ -99,3 +103,26 @@ form {
     padding: 5%;
 
 }
+
+iframe span {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+iframe {
+    padding: 1%;
+    margin: 2%;
+
+}
+
+.ver-mas a {
+    text-decoration: none;
+    background-color: #f035d4;
+    color: white;
+    font-size: x-large;
+    margin-left: 3%;
+    padding: 15px;
+    border-radius: 10px;
+}
+
